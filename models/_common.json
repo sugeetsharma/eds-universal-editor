@@ -1,10 +1,7 @@
 {
-    "tabs": [
+    "tabItems": [
       {
-        "id": "tabs",
-        "fields": [
-               {
-                  "component": "text",
+                   "component": "text",
                   "valueType": "string",
                   "name": "tabhead",
                   "label": "Tab Head",
@@ -45,7 +42,6 @@
                 }
             
         ]
-      }
-    ]
+    
   }
   
