@@ -18,68 +18,20 @@
   ],
   "models": [
     {
-    "id" : "tabs",
-      "fields" : [
+     
+      "id" :"tab",
+      "fields":[
         {
-          "component": "label",
-          "name": "tab1",
-          "label": "Tab 1"
-        },
-        { 
-           "...": "../../models/_common.json#/tabItems"
-        }
-        ,{
-          "component": "label",
-          "name": "tab2",
-          "label": "Tab 2"
-        },
-        {
-          "...": "../../models/_common.json#/tabItems"
-        },{
-          "component": "label",
-          "name": "tab3",
-          "label": "Tab 3"
-        },
-        {
-          "...": "../../models/_common.json#/tabItems"
-        },{
-          "component": "label",
-          "name": "tab4",
-          "label": "Tab 4"
-        },
-        {
-          "...": "../../models/_common.json#/tabItems"
-        },{
-          "component": "label",
-          "name": "tab5",
-          "label": "Tab 5"
-        },
-        {
-          "...": "../../models/_common.json#/tabItems"
-        },{
-          "component": "label",
-          "name": "tab6",
-          "label": "Tab 6"
-        },
-        {
-          "...": "../../models/_common.json#/tabItems"
-        },{
-          "component": "label",
-          "name": "tab7",
-          "label": "Tab 7"
-        },
-        {
-          "...": "../../models/_common.json#/tabItems"
-        }
-      ]
+        "name": "tabs",
+        "model": "tab",
+        "component": "text",
+          "value": "",
+        "label": "Tab Number"
+    }
+      ]   
     }
   ],
   "filters": [
-    {
-      "id": "section",
-    "components": [
-      "tabs"
-    ]
-  }
+   
   ]
 }

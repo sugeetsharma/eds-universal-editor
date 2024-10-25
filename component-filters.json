@@ -15,7 +15,9 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "tabs",
+      "tab"
     ]
   },
   {
@@ -37,12 +39,6 @@
       "image",
       "button",
       "title"
-    ]
-  },
-  {
-    "id": "section",
-    "components": [
-      "tabs"
     ]
   }
 ]
