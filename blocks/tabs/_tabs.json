@@ -19,13 +19,13 @@
   "models": [
     {
      
-      "id" :"tab",
+      "id" :"tabs",
       "fields":[
         {
         "name": "tabs",
         "model": "tab",
         "component": "text",
-          "value": "",
+        "value": "",
         "label": "Tab Number"
     }
       ]   
